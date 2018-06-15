@@ -1,0 +1,14 @@
+<html>
+	<title>Flask with Jinja</title>
+	<body>
+		<ul>
+			<li><img src={{ url_for('static',filename='pwafire128white.png') }}></li>
+			{% set username="ayeethirikyaww" %}
+			{% set name="ayeethirikyaww" %}
+			<li>{{name}}</li>
+			<li><a href="https://github.com/{{username}}">GitHub</li>
+			<li><a href="https://{{username}}/herokuapp.com">Heroku</li>
+		</ul>
+	</body>
+</html>
+
